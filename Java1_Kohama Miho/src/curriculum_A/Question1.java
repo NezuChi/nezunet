@@ -230,6 +230,7 @@ public class Question1 {
 		// 結果を出力
 		System.out.println(s);
 		
+		
 		/* Q13
 		 * String text = "私はJavaが好きです。Javaは楽しい!";という
 		 * 文章の中にある 「Java」 を 「Python」 に置き換えて出力させてください。
