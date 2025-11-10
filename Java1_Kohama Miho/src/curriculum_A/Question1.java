@@ -64,19 +64,13 @@ public class Question1 {
 		
 		// Q3 Q2の値を代入した変数を用いて出力をしてください
 		// 出力：11110　出力条件：変数を用いて右記を出力
-		// shortNumに11110を代入
-		shortNum = 11110;
-		
-		// shortNumを出力
-		System.out.println(shortNum);
+		// byteNumからlongNumを足して出力
+		System.out.println(byteNum + shortNum + intNum + longNum);
 		
 		
 		// 出力：20　出力条件：変数を用いて右記を出力
-		// byteNumに20を代入
-		byteNum = 20;
-		
-		// byteNumを出力
-		System.out.println(byteNum);
+		// floatNumとdoubleNumを足して出力
+		System.out.println(floatNum + doubleNum);
 		
 		
 		// 出力：a ハロー true　出力条件：変数を用いて右記を出力(間に半角スペース入れる)
@@ -85,8 +79,8 @@ public class Question1 {
 		
 		
 		// 出力：11130　出力条件：数字を全て足して右記を出力
-		// shotNumとbyteNumを足して出力
-		System.out.println(shortNum + byteNum);
+		// byteNumからdoubleNumを足して出力
+		System.out.println(byteNum + shortNum + intNum + longNum + floatNum + doubleNum);
 		
 		
 		// 出力：1E+10　出力条件：小数点以外の数字を全てかけて右記を出力
@@ -96,14 +90,11 @@ public class Question1 {
 		
 		// 出力：0.105　出力条件：10.5 割る100をして右記を出力
 		// 10.5/100を出力
-		System.out.println(doubleNum / 100);
+		System.out.println(doubleNum / shortNum);
 		
 		// 出力：-90　出力条件：10 引く100をして右記を出力
-		// byteNumに10を代入
-		byteNum = 10;
-		
 		// 10-100を出力
-		System.out.println(byteNum - 100);
+		System.out.println(byteNum - shortNum);
 		
 		/* Q4
 		 * name という String型の変数 を宣言し
