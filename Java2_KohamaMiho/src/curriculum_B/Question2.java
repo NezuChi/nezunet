@@ -22,9 +22,7 @@ public class Question2 {
 		int age = 25;
 		
 		// age が 20 以上 30 以下なら "適正年齢です" と表示
-		if (age >= 20 ) {
-			System.out.println("適正年齢です");
-		} else if (age <= 30 ) {
+		if (age >= 20 && age <= 30 ) {
 			System.out.println("適正年齢です");
 		 
 		// それ以外場合 "対象外です" と表示
@@ -72,164 +70,155 @@ public class Question2 {
 		} else {
 			System.out.println(z);
 		}
-	}	
 		
-
-	@SuppressWarnings("unused")
-	class Main {
-		public static void main(String[] args) {
-			Scanner scanner = new Scanner(System.in);
+		
+		Scanner scanner = new Scanner(System.in);
 		// Q5
 		// int 型変数 num を用意 コンソール入力でいずれか値を代入し
-			int num = scanner.nextInt();
-				
+		int num = scanner.nextInt();
+		
 		// num 値が 0 より大きけれ "正の数です" と表示
-			if ( num > 0 ) {
-				System.out.println("正の数です");
-					
+		if ( num > 0 ) {
+			System.out.println("正の数です");
+			
 		// num 値が 0 なら "0 です" と表示
-			} else if ( num == 0 ) {
-				System.out.println("0 です");
-					
+		} else if ( num == 0 ) {
+			System.out.println("0 です");
+			
 		// num 値が 0 より小さけれ "負の数です" と表示
-			} else if ( num < 0 ) {
-				System.out.println("負の数です");
-			}
-				
-				
+		} else if ( num < 0 ) {
+			System.out.println("負の数です");
+		}
+		
+		
 		// Q6
 		// int 型変数 value を用意 コンソール入力でいずれか値を代入し
-			int value = scanner.nextInt();
-				
+		int value = scanner.nextInt();
+		
 		// value が 偶数 なら "偶数です" と表示
-			if ( value % 2 == 0 ) {
-				System.out.println("偶数です");
-					
+		if ( value % 2 == 0 ) {
+			System.out.println("偶数です");
+			
 		// value が 奇数 なら "奇数です" と表示
-			} else {
-				System.out.println("奇数です");
-			}
-				
-				
+		} else {
+			System.out.println("奇数です");
+		}
+		
+		
 		// Q7
 		// int 型変数 score にコンソール入力で 0 から 100 いずれか数値を代入し
-			int score = scanner.nextInt();
+		score = scanner.nextInt();
 				
 		// 90 以上なら "優"
-			if ( score >= 90 ) {
-				System.out.println("優");
-					
+		if ( score >= 90 ) {
+			System.out.println("優");
+			
 		// 70 以上なら "良"
-			} else if ( score >= 70 ) {
-				System.out.println("良");
-					
+		} else if ( score >= 70 ) {
+			System.out.println("良");
+			
 		// 50 以上なら "可"
-			} else if ( score >= 50 ) {
-				System.out.println("可");
-					
+		} else if ( score >= 50 ) {
+			System.out.println("可");
+			
 		// 50 未満なら "不可" を表示
-			} else {
-				System.out.println("不可");
-			}
-				
-				
+		} else {
+			System.out.println("不可");
+		}
+		
+		
 		// Q8
 		// コンソール入力が null また空文字（""）ときに「入力が無効です」と表示する処理を作成してください
-			String line = scanner.nextLine();
-				
-			if ( line.equals(null) || line.equals("")) {
-				System.out.println("「入力が無効です」");
-			}
-			
-			scanner.close();
+		String line = scanner.nextLine();
+		
+		if ( line == null || line.isEmpty()) {
+			System.out.println("「入力が無効です」");
 		}
-	}
-	
-	
-	class SwitchExample {
-		public static void main(String[] args) {
-			Scanner scanner = new Scanner(System.in);
+		
+		
+		// Q9
+		// int 型変数 day を用意（コンソール入力で1～7 いずれか数値を代入）
+		int day = scanner.nextInt();
+		
+		// day 値に応じて曜日を表示
+		switch (day) {
+		
+		// 1 → "月曜日"
+		case 1:
+			System.out.println("月曜日");
+			break;
 			
-			// Q9
-			// int 型変数 day を用意（コンソール入力で1～7 いずれか数値を代入）
-			int day = scanner.nextInt();
+		// 2 → "火曜日"
+		case 2:
+			System.out.println("火曜日");
+			break;
 			
-			// day 値に応じて曜日を表示
-			switch (day) {
+		// 3 → "水曜日"
+		case 3:
+			System.out.println("水曜日");
+			break;
 			
-			// 1 → "月曜日"
-			case 1:
-				System.out.println("月曜日");
-				break;
-				
-			// 2 → "火曜日"
-			case 2:
-				System.out.println("火曜日");
-				break;
-				
-			// 3 → "水曜日"
-			case 3:
-				System.out.println("水曜日");
-				break;
-				
-			// 4 → "木曜日"
-			case 4:
-				System.out.println("木曜日");
-				break;
-				
-			// 5 → "金曜日"
-			case 5:
-				System.out.println("金曜日");
-				break;
-				
-			// 6 → "土曜日"
-			case 6:
-				System.out.println("土曜日");
-				break;
-				
-			// 7 → "日曜日"
-			case 7:
-				System.out.println("日曜日");
-				break;
-				
-			// それ以外値なら "無効な入力です" と表示
-			default:
-				System.out.println("無効な入力です");
-			}
+		// 4 → "木曜日"
+		case 4:
+			System.out.println("木曜日");
+			break;
 			
+		// 5 → "金曜日"
+		case 5:
+			System.out.println("金曜日");
+			break;
 			
-			// Q10
-			// int 型変数 month を用意（コンソール入力で1～12 いずれか数値を代入）
-			int month = scanner.nextInt();
+		// 6 → "土曜日"
+		case 6:
+			System.out.println("土曜日");
+			break;
 			
-			// month 値に応じて季節を表示
-			switch (month) {
-			
-			// 12, 1, 2 → "冬"
-			case 12: case 1: case 2:
-				System.out.println("冬");
-				break;
+		// 7 → "日曜日"
+		case 7:
+			System.out.println("日曜日");
+			break;
 				
-			// 3, 4, 5 → "春"
-			case 3: case 4: case 5:
-				System.out.println("春");
-				break;
-				
-			// 6, 7, 8 → "夏"
-			case 6: case 7: case 8:
-				System.out.println("夏");
-				break;
-			
-			// 9, 10, 11 → "秋"
-			case 9: case 10: case 11:
-				System.out.println("秋");
-				break;
-				
-			// それ以外値なら "無効な月です" と表示
-			default:
-				System.out.println("無効な月です");
-			}
+		// それ以外値なら "無効な入力です" と表示
+		default:
+			System.out.println("無効な入力です");
 		}
+		
+		
+		// Q10
+		// int 型変数 month を用意（コンソール入力で1～12 いずれか数値を代入）
+		int month = scanner.nextInt();
+		
+		// month 値に応じて季節を表示
+		switch (month) {
+		
+		// 12, 1, 2 → "冬"
+		case 12: case 1: case 2:
+			System.out.println("冬");
+			break;
+			
+		// 3, 4, 5 → "春"
+		case 3: case 4: case 5:
+			System.out.println("春");
+			break;
+			
+		// 6, 7, 8 → "夏"
+		case 6: case 7: case 8:
+			System.out.println("夏");
+			break;
+		
+		// 9, 10, 11 → "秋"
+		case 9: case 10: case 11:
+			System.out.println("秋");
+			break;
+			
+		// それ以外値なら "無効な月です" と表示
+		default:
+			System.out.println("無効な月です");
+		}
+		
+		
+		scanner.close();
+		
 	}
 		
 
