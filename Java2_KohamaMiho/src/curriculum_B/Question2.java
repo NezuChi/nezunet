@@ -129,6 +129,8 @@ public class Question2 {
 		
 		// Q8
 		// コンソール入力が null また空文字（""）ときに「入力が無効です」と表示する処理を作成してください
+		
+		scanner.nextLine();
 		String line = scanner.nextLine();
 		
 		if ( line == null || line.isEmpty()) {
