@@ -40,13 +40,11 @@ public class Question2 {
 			System.out.println("成人です");
 			
 		// age が 13 以上 19 以下なら "ティーンエイジャーです" と表示
-		} else if (age >= 13 ) {
-			System.out.println("ティーンエイジャーです");
-		} else if (age <= 19 ) {
+		} else if ( age >= 13 && age <= 19 ) {
 			System.out.println("ティーンエイジャーです");
 			
 		// age が 12 以下なら "子供です" と表示
-		} else if (age <= 12 ) {
+		} else if ( age <= 12 ) {
 			System.out.println("子供です");
 		}
 		
