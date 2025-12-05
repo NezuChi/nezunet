@@ -190,6 +190,8 @@ public class Question3 {
 				
 				// テレビとディスプレイの処理
 				case "テレビ": case "ディスプレイ":
+					
+					// 条件演算子（三項演算子）
 					tvSt = (tvSt == -1) ? random.nextInt(12) : tvSt;
 					st = (sh.equals("テレビ")) ? tvSt : 11 - tvSt;
 					mm = sh + "の残り台数は" + st + "台です";
