@@ -104,6 +104,7 @@ public class Question3 {
 		
 		// 0が入力されたら「終了しました」と表示
 		System.out.println("「終了しました」");
+		scanner.nextInt();
 		
 		
 		// Q11
