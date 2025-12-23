@@ -10,7 +10,7 @@ class Main {
 		 
 		 person1.print();
 		 
-		 System.out.println("合計" + Person.count + "人です");
+		 System.out.println("合計" + Person.getCount() + "人です");
 		 
 	}
 }
