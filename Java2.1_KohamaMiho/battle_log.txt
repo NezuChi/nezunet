@@ -1,0 +1,38 @@
+開始
+aaa (HP: 121, AT: 19, SP: 9)
+Daemon (HP: 85, AT: 12, SP: 6)
+aaa が先攻
+ターン　1
+aaa の攻撃でDaemon に 17 のダメージ
+Daemon の残りHP: 68
+Daemon の攻撃でaaa に 9 のダメージ
+aaa の残りHP: 112
+aaa HP:112
+Daemon HP:68
+ターン　2
+aaa の攻撃でDaemon に 21 のダメージ
+Daemon の残りHP: 47
+Daemon の攻撃でaaa に 12 のダメージ
+aaa の残りHP: 100
+aaa HP:100
+Daemon HP:47
+ターン　3
+aaa の攻撃でDaemon に 22 のダメージ
+Daemon の残りHP: 25
+Daemon の攻撃でaaa に 9 のダメージ
+aaa の残りHP: 91
+aaa HP:91
+Daemon HP:25
+ターン　4
+aaa の攻撃でDaemon に 19 のダメージ
+Daemon の残りHP: 6
+Daemon の攻撃でaaa に 14 のダメージ
+aaa の残りHP: 77
+aaa HP:77
+Daemon HP:6
+ターン　5
+aaa の攻撃でDaemon に 21 のダメージ
+Daemon の残りHP: 0
+終了
+aaaは Daemonを倒した
+END
