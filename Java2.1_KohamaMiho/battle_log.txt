@@ -1,0 +1,40 @@
+開始
+豚トロ (HP: 114, AT: 20, SP: 6)
+Daemon (HP: 85, AT: 12, SP: 6)
+Daemon が先攻
+ターン　1
+Daemon の攻撃で豚トロ に 13 のダメージ
+豚トロ の残りHP: 101
+豚トロ の攻撃でDaemon に 19 のダメージ
+Daemon の残りHP: 66
+豚トロ HP:101
+Daemon HP:66
+ターン　2
+Daemon の攻撃で豚トロ に 12 のダメージ
+豚トロ の残りHP: 89
+豚トロ の攻撃でDaemon に 18 のダメージ
+Daemon の残りHP: 48
+豚トロ HP:89
+Daemon HP:48
+ターン　3
+Daemon の攻撃で豚トロ に 12 のダメージ
+豚トロ の残りHP: 77
+豚トロ の攻撃でDaemon に 23 のダメージ
+Daemon の残りHP: 25
+豚トロ HP:77
+Daemon HP:25
+ターン　4
+Daemon の攻撃で豚トロ に 9 のダメージ
+豚トロ の残りHP: 68
+豚トロ の攻撃でDaemon に 24 のダメージ
+Daemon の残りHP: 1
+豚トロ HP:68
+Daemon HP:1
+ターン　5
+Daemon の攻撃で豚トロ に 9 のダメージ
+豚トロ の残りHP: 59
+豚トロ の攻撃でDaemon に 16 のダメージ
+Daemon の残りHP: 0
+終了
+豚トロは Daemonを倒した
+END
