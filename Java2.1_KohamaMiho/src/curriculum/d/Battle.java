@@ -32,6 +32,8 @@ public class Battle {
 		
 		while (player.isAlive() && daemon.isAlive()) {
 			log("ターン　" + turn);
+			
+			// At＝Attack、Atr＝Attacker　長いため表記を省略
 			perfomeAt(firstAtr, secondAtr);
 			
 			if (!secondAtr.isAlive()) {

@@ -2,17 +2,18 @@ package curriculum.i;
 
 public class FullTimeEmployee extends Employee {
 	
+	public static final int HOURLY_RATE = 1250;
+	
 	public FullTimeEmployee(String id, String name) {
 		super(id, name);
 	}
 	
 	@Override
 	public int calculateDailyWage(int hoursWorked) {
-		int hourlyRate = 1250;
 		int overtime = Math.max(0, hoursWorked - 8);
 		int regularHours = hoursWorked - overtime;
 		
-		return (regularHours * hourlyRate) + (int)(overtime * hourlyRate * 1.25);
+		return (regularHours * HOURLY_RATE) + (int)(overtime * HOURLY_RATE * 1.25);
 	}
 
 }

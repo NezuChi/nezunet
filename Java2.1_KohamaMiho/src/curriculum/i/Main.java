@@ -15,10 +15,10 @@ public class Main {
 		employees.add(new ContractEmployee("E003", "田中花子"));
 		employees.add(new ContractEmployee("E004", "山田花子"));
 		
-		int houesWorked = 9;
+		int hoursWorked = 9;
 		
 		for (Employee employee : employees) {
-			int dailyWage = employee.calculateDailyWage(houesWorked);
+			int dailyWage = employee.calculateDailyWage(hoursWorked);
 			
 			System.out.println("給与: " + dailyWage + " 円");
 		}

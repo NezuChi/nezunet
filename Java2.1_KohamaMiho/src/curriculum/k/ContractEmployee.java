@@ -2,7 +2,7 @@ package curriculum.k;
 
 public class ContractEmployee extends Employee {
 	
-private static final int HOURLY_RATE = 1200;
+	private static final int HOURLY_RATE = 1200;
 	
 	public ContractEmployee(String name, int hours) {
 		super(name, hours);
